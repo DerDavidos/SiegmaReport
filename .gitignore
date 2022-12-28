@@ -1,0 +1,10 @@
+*.fls
+*.bbl
+*.blg
+*.log
+*.pdf
+*.toc
+*.gz
+*.out
+*.fdb_latexmk
+.DS_Store
