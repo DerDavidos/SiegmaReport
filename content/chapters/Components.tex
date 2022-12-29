@@ -1,0 +1,35 @@
+\chapter{Components}
+
+In this chapter, all relevant parts of the system are explained and reasons are given why they were selected.
+
+\section{Stepper driver}
+
+TMC2209s were selected as stepper drivers because they offer a UART interface that provides reliable communication and allows a wide range of settings. 
+Up to four drivers can be connected simultaneously to one UART master. In addition, they operate almost silently. \cite{tmc2209} 
+
+\section{Mototor}
+
+
+
+\section{Micro Controller}
+
+For the microcontrollers, the choice fell on the RP2040 \cite{rp2040}. With the help of the Raspberry Pi Pico SDK \cite{sdk} it is relatively easy to write programs in the C language for it. The peripherals include 2 UARTs for easy communication with the stepper drivers. 
+
+The controllers were used in the form of the \textit{Tiny 2040} \cite{tiny2040}. The Tiny 2040 is a development board that complements the RP2040 with a USB-C connector and easily accessible IO pins.
+
+\section{Main Controller}
+
+Raspberry Pi
+
+\section{Database}
+
+
+
+\section{Power Supply}
+
+
+
+\section{Communication}
+
+
+
